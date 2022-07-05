@@ -1,7 +1,11 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-18-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-25-brightgreen)
 
-A curated list of "Language-Model-as-a-Service (LMaaS)" papers
+A curated list of "Language-Model-as-a-Service (LMaaS)" papers.
+
+## Updates
+
+- 2022/7/4: Create this paper list
 
 ## Contents
 
@@ -100,27 +104,31 @@ We follow the same keywords convention as [PromptPapers](https://github.com/thun
 
     *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa*. [[pdf](https://arxiv.org/abs/2205.11916)] [[code](https://github.com/kojima-takeshi188/zero_shot_cot)]
 
-19. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. ACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
+19. **Zero-Shot Video Question Answering via Frozen Bidirectional Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/FrozenBiLM-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+    *Antoine Yang, Antoine Miech, Josef Sivic, Ivan Laptev, Cordelia Schmid*. [[pdf](https://arxiv.org/abs/2206.08155)] [[code](https://antoyang.github.io/frozenbilm.html)]
+
+20. **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**. ACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riede, Pontus Stenetorp*. [[pdf](https://arxiv.org/pdf/2104.08786.pdf)]
 
-20. **Improving In-Context Few-Shot Learning via Self-Supervised Training**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Self--supervised_training-blue) ![](https://img.shields.io/badge/Few--shot-green)
+21. **Improving In-Context Few-Shot Learning via Self-Supervised Training**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Self--supervised_training-blue) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Mingda Chen, Jingfei Du, Ramakanth Pasunuru, Todor Mihaylov, Srini Iyer, Veselin Stoyanov, Zornitsa Kozareva*. [[pdf](https://arxiv.org/pdf/2205.01703.pdf)]
 
-21. **An Explanation of In-context Learning as Implicit Bayesian Inference**. ICLR 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Implicit_Bayesian_Inference-blue)
+22. **An Explanation of In-context Learning as Implicit Bayesian Inference**. ICLR 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Implicit_Bayesian_Inference-blue)
 
     *Sang Michael Xie, Aditi Raghunathan, Percy Liang, Tengyu Ma*. [[pdf](https://openreview.net/pdf?id=RdJVFCHjUMI)] [[code](https://github.com/p-lambda/incontext-learning)]
 
-22. **Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?**. Preprint 2022.2 ![](https://img.shields.io/badge/In--context_Learning-blue)
+23. **Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?**. Preprint 2022.2 ![](https://img.shields.io/badge/In--context_Learning-blue)
 
     *Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer*. [[pdf](https://arxiv.org/abs/2202.12837)] [[code](https://github.com/alrope123/rethinking-demonstrations)]
 
-23. **MetaICL: Learning to Learn In Context**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Meta_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
+24. **MetaICL: Learning to Learn In Context**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Meta_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Sewon Min, Mike Lewis, Luke Zettlemoyer, Hannaneh Hajishirzi*. [[pdf](https://arxiv.org/abs/2110.15943)] [[code](https://github.com/facebookresearch/metaicl)]
     
-24. **Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks**. Preprint 2022.4 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
+25. **Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks**. Preprint 2022.4 ![](https://img.shields.io/badge/In--context_Learning-blue) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Anjana Arunkumar, Arjun Ashok, Arut Selvan Dhanasekaran, Atharva Naik, David Stap, Eshaan Pathak, Giannis Karamanolakis, Haizhi Gary Lai, Ishan Purohit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, Krima Doshi, Maitreya Patel, Kuntal Kumar Pal, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Shailaja Keyur Sampat, Savan Doshi, Siddhartha Mishra, Sujan Reddy, Sumanta Patro, Tanay Dixit, Xudong Shen, Chitta Baral, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi, Daniel Khashabi*. [[pdf](https://arxiv.org/abs/2204.07705)] [[code](https://github.com/allenai/natural-instructions)]
 
