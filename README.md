@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-18-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-19-brightgreen)
 
 A curated list of "Language-Model-as-a-Service (LMaaS)" papers
 
@@ -99,6 +99,9 @@ We follow the same keywords convention as [PromptPapers](https://github.com/thun
 18. **Large Language Models are Zero-Shot Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/Let's_think_step_by_step-blue) ![](https://img.shields.io/badge/Chain_of_Thought-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
     *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa*. [[pdf](https://arxiv.org/abs/2205.11916)] [[code](https://github.com/kojima-takeshi188/zero_shot_cot)]
+
+19. **Zero-Shot Video Question Answering via Frozen Bidirectional Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/FrozenBiLM-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+    *Antoine Yang, Antoine Miech, Josef Sivic, Ivan Laptev, Cordelia Schmid* [[pdf](https://arxiv.org/abs/2206.08155)] [[code](https://antoyang.github.io/frozenbilm.html)]
 
 ## Contributing
 
