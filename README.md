@@ -1,7 +1,11 @@
 # Language Model as a Service (LMaaS)
 ![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-19-brightgreen)
 
-A curated list of "Language-Model-as-a-Service (LMaaS)" papers
+A curated list of "Language-Model-as-a-Service (LMaaS)" papers.
+
+## Updates
+
+- 2022/7/4: Create this paper list
 
 ## Contents
 
