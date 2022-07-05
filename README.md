@@ -62,8 +62,8 @@ The paper list is mainly maintained by [Tianxiang Sun](https://txsun1997.github.
 
    *Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riede, Pontus Stenetorp*. [[pdf](https://arxiv.org/abs/2104.08786)]
 
-9. **Noisy Channel Language Model Prompting for Few-Shot Text Classification**. ACL 2022 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Zero--shot-green)
-    
+9. **Noisy Channel Language Model Prompting for Few-Shot Text Classification**. ACL 2022 ![](https://img.shields.io/badge/Channel_LM-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+   
     *Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer*. [[pdf](https://arxiv.org/abs/2108.04106)] [[code](https://github.com/shmsw25/Channel-LM-Prompting)]
 
 11. **Learning To Retrieve Prompts for In-Context Learning**. NAACL 2022 ![](https://img.shields.io/badge/EPR-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
@@ -102,7 +102,7 @@ The paper list is mainly maintained by [Tianxiang Sun](https://txsun1997.github.
 
     *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
 
-20. **GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/GrIPS-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Natural--Instructions-green)
+20. **GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/GrIPS-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Natural_Instructions-green)
 
     *Archiki Prasad, Peter Hase, Xiang Zhou, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2203.07281)] [[code](https://github.com/archiki/GrIPS)]
 
