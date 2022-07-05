@@ -20,9 +20,9 @@ The paper list is mainly maintained by [Tianxiang Sun](https://txsun1997.github.
 
 We follow the same keywords convention as [PromptPapers](https://github.com/thunlp/PromptPapers).
 
-![](https://img.shields.io/badge/GPT--3-blue)The abbreviation of the work.
+![](https://img.shields.io/badge/GPT--3-blue) The abbreviation of the work.
 
-![](https://img.shields.io/badge/Discrete_Prompt-red) The key features in terms of prompt learning used in the work.
+![](https://img.shields.io/badge/Discrete_Prompt-red) The key feature of the work.
 
 ![](https://img.shields.io/badge/Zero--shot-green) The main experimental setting of the work.
 
