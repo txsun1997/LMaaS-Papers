@@ -1,5 +1,5 @@
-# LMaaS-Papers
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-14-brightgreen)
+# Language Model as a Service (LMaaS)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-15-brightgreen)
 
 A curated list of "Language-Model-as-a-Service (LMaaS)" papers
 
@@ -94,5 +94,15 @@ We follow the same keywords convention as [PromptPapers](https://github.com/thun
 
 Steps to contribute:
 
-- Make your awesome changes
-- Submit pull request; if you add a new entry, please give a very brief explanation why you think it should be added.
+- Add a new paper or update an existing paper.
+- Please use the same format as existing entries. When adding keywords tags, please follow the same [keywords convention](#keywords). When adding the pdf link of the paper, please use the abstract page if it is on arXiv.
+- Modify the `PaperNumber` on the top of the page accordingly and submit your pull request. We recommend giving a very brief explanation why you think a paper should be added or changed.
+
+### Contributors
+
+We thank all the contributors for paper recommendation!
+
+<a href="https://github.com/txsun1997/LMaaS-Papers/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=txsun1997/LMaaS-Papers" />
+</a>
+
