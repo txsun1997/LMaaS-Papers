@@ -16,7 +16,7 @@ A curated list of "Language-Model-as-a-Service (LMaaS)" papers.
 
 ## Introduction
 
-(We are still completing this paper list. A detailed introduction to the LMaaS will be added soon.)
+![](https://github.com/txsun1997/LMaaS-Papers/blob/main/img/LMaaS.png)
 
 The paper list is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make **pull request** to add or update the papers! (See [Contributing](#contributing))
 
