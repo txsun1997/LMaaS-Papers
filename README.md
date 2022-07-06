@@ -1,7 +1,7 @@
 # Language Model as a Service (LMaaS)
 ![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-26-brightgreen)
 
-This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Before submitting your pull request, please check if your recommended paper fits into the [scope](#scope) of this repo.
+This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
 ## Updates
 
@@ -10,6 +10,9 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
 ## Contents
 
 - [Introduction](#introduction)
+  - [Scope](#scope)
+  - [Advantages](#advantages)
+
 - [Keywords](#keywords)
 - [Papers](#papers)
   - [Text Prompt](#text-prompt)
@@ -22,7 +25,7 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
 
 ## Introduction
 
-Due to commercial reasons and expensive tuning cost, pre-trained large language models (LLMs) such as GPT-3 are usually released as a service instead of open sourcing model weights. We call this scenario "**Language-Model-as-a-Service (LMaaS)**". In such a scenario, users can access the powerful LLMs through their inference APIs. The service of LLMs has powered many user cases (See [GPT-3 Demos](https://gpt3demo.com/)). To make LLMs benefit a wider audience, we collect papers that fit into this scenario to facilitate future research. 
+Due to commercial reasons and expensive tuning cost, pre-trained large language models (LLMs) such as GPT-3 are usually released as a service instead of open sourcing model weights. We call this scenario "**Language-Model-as-a-Service (LMaaS)**". In such a scenario, users can access the powerful LLMs through their inference APIs. The service of LLMs has powered many use cases (See [GPT-3 Demo](https://gpt3demo.com/)). In contrast to fine-tuning, LMaaS allows a single general purpose LLM to serve many difference tasks and therefore is highly deployment-efficient. Nevertheless, how to adapt LLMs to target tasks without access to their parameters and gradients is a challenge. To make LLMs benefit a wider audience, we collect papers that fit into this scenario to facilitate future research. 
 
 ![](https://github.com/txsun1997/LMaaS-Papers/blob/main/img/LMaaS.png)
 
@@ -36,6 +39,16 @@ In existing literature, there are several lines of research that fit into LMaaS:
 - **In-context learning**. Users can provide a few examples in the input at inference time to help LLMs to rapidly adapt to the target task.
 - **Black-box optimization**. By tuning a small portion of parameters (e.g., continuous prompt) with only the access of the LLM's output probability via black-box optimization, users can solve target tasks with a small training set.
 - **Feature-based learning**. LLMs can serve as a feature extractor, on which users can build some learnable task-specific modules to perform classification or generation.
+
+**Note:** A related (and partially overlapped) topic is *prompt-based learning*, which aims to solve downstream tasks using general purpose LLMs by converting input and output with some template and verbalizer, respectively. However, most works in prompt-based learning require the access to model parameters and gradients, and therefore do not fit into our scope. For prompt-based learning papers that are not suitable for LMaaS, we recommend contributing to another awesome paper list: [PromptPaper](https://github.com/thunlp/PromptPapers).
+
+### Advantages
+
+Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages:
+
+- **Deployment-efficient**. LMaaS deploys a single general purpose LLM to serve various tasks. The target task can be performed conditioning the LLM with task-specific prompts, a small portion of parameters, or features. There is no need to maintain a copy of the entire model for each task.
+- **Tuning-efficient**. When there is a small number of task-specific parameters to be tuned (e.g., black-box optimization), the optimization can be highly efficient since it does not require backpropagation, where the computation complexity is proportional to the model size and therefore can be expensive or even infeasible for LLMs. By contrast, the optimization complexity in LMaaS is independent of the model size.
+- **Sample-efficient**. It has been demonstrated that LLMs can achieve competitive performance on a broad range of tasks with limited or even zero labeled data. Most works in LMaaS also focus on few-shot or zero-shot settings.
 
 ## Keywords
 
@@ -179,7 +192,7 @@ In existing literature, there are several lines of research that fit into LMaaS:
 
 Steps to contribute:
 
-- Add a new paper or update an existing paper.
+- Add a new paper or update an existing paper. Please check if your added paper fits into the [scope](#scope) of this repo.
 - Please use the same format as existing entries. When adding keywords tags, please follow the same [keywords convention](#keywords). When adding the pdf link of the paper, please use the abstract page if it is on arXiv.
 - Modify the `PaperNumber` on the top of the page accordingly and submit your pull request. We recommend giving a very brief explanation why you think a paper should be added or changed.
 
