@@ -19,7 +19,6 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
   - [Black-Box Optimization](#black-box-optimization)
   - [Feature-based Learning](#feature-based-learning)
   - [Data Generation](#data-generation)
-  - [Others](#others)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -172,16 +171,20 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Matthew E. Peters, Sebastian Ruder, Noah A. Smith*. [[pdf](https://arxiv.org/abs/1903.05987)]
 
-2. **Y-Tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/Y--Tuning-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
+2. **Co-training Improves Prompt-based Learning for Large Language Models**. ICML 2022 ![](https://img.shields.io/badge/Co--training-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
+
+   *Hunter Lang, Monica Agrawal, Yoon Kim, David Sontag*. [[pdf](https://arxiv.org/abs/2202.00828)] 
+
+3. **Y-Tuning: An Efficient Tuning Paradigm for Large-Scale Pre-Trained Models via Label Representation Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/Y--Tuning-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
 
    *Yitao Liu, Chenxin An, Xipeng Qiu*. [[pdf](https://arxiv.org/abs/2202.09817)]
 
-3. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. Preprint 2022.6 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
+4. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. Preprint 2022.6 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
 
    *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2206.06522)] [[code](https://github.com/ylsung/Ladder-Side-Tuning)]
 
 ### Data Generation
-1. **Generating Datasets with Pretrained Language Models**. EMNLP 2021 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+1. **Generating Datasets with Pretrained Language Models**. EMNLP 2021 ![](https://img.shields.io/badge/Dino-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Timo Schick, Hinrich Schütze*. [[pdf](https://arxiv.org/abs/2104.07540)] [[code](https://github.com/timoschick/dino)]
 
@@ -189,20 +192,13 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
 
-3. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. Preprint 2022.2 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+3. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. Preprint 2022.2 ![](https://img.shields.io/badge/SuperGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
 
-4. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+4. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
-   
-
-### Others
-
-1. **Co-training Improves Prompt-based Learning for Large Language Models**. ICML 2022 ![](https://img.shields.io/badge/Co--training-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
-
-    *Hunter Lang, Monica Agrawal, Yoon Kim, David Sontag*. [[pdf](https://arxiv.org/abs/2202.00828)] 
 
 
 ## Contributing
