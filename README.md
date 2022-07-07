@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-29-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-30-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -12,7 +12,6 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
 - [Introduction](#introduction)
   - [Scope](#scope)
   - [Advantages](#advantages)
-
 - [Keywords](#keywords)
 - [Papers](#papers)
   - [Text Prompt](#text-prompt)
@@ -21,7 +20,6 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
   - [Feature-based Learning](#feature-based-learning)
   - [Data Generation](#data-generation)
   - [Others](#others)
-
 - [Contributing](#contributing)
 
 ## Introduction
@@ -178,23 +176,27 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Yitao Liu, Chenxin An, Xipeng Qiu*. [[pdf](https://arxiv.org/abs/2202.09817)]
 
-### Dataset-generation-based Learning
+3. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. Preprint 2022.6 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
+
+   *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2206.06522)] [[code](https://github.com/ylsung/Ladder-Side-Tuning)]
+
+### Data Generation
 1. **Generating Datasets with Pretrained Language Models**. EMNLP 2021 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
-     *Timo Schick, Hinrich Schütze*. [[pdf](https://arxiv.org/abs/2104.07540)] [[code](https://github.com/timoschick/dino)]
+   *Timo Schick, Hinrich Schütze*. [[pdf](https://arxiv.org/abs/2104.07540)] [[code](https://github.com/timoschick/dino)]
 
 2. **ZeroGen: Efficient Zero-shot Learning via Dataset Generation**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
-    *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
+   *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
 
 3. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. Preprint 2022.2 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
-    *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
+   *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
 
 4. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
-    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
-    
+   *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
+   
 
 ### Others
 
