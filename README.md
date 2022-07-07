@@ -147,15 +147,23 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
     *Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Denny Zhou*. [[pdf](https://arxiv.org/abs/2203.11171)]
 
-14. **The Unreliability of Explanations in Few-Shot In-Context Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/-calibrate%20prediction-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+14. **STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning**. Preprint 2022.3 ![](https://img.shields.io/badge/-Self%20Taught-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+    
+    *Eric Zelikman, Yuhuai Wu, Noah D. Goodman*. [[pdf](https://arxiv.org/abs/2203.14465)]
+
+15. **Can language models learn from explanations in context?**. Preprint 2022.4 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+    
+    *Andrew K. Lampinen, Ishita Dasgupta, Stephanie C. Y. Chan, Kory Matthewson, Michael Henry Tessler, Antonia Creswell, James L. McClelland, Jane X. Wang, Felix Hill* [[pdf](https://arxiv.org/abs/2204.02329)]
+
+16. **The Unreliability of Explanations in Few-Shot In-Context Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/-calibrate%20prediction-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Xi Ye, Greg Durrett*. [[pdf](https://arxiv.org/abs/2205.03401)]
 
-15. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**. Preprint 2022.5 ![](https://img.shields.io/badge/-least%20to%20most-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+17. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**. Preprint 2022.5 ![](https://img.shields.io/badge/-least%20to%20most-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi*. [[pdf](https://arxiv.org/abs/2205.10625)]
 
-16. **On the Advance of Making Language Models Better Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/-DIVERSE-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+18. **On the Advance of Making Language Models Better Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/-DIVERSE-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen*. [[pdf](https://arxiv.org/abs/2206.02336)]
 
