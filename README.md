@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-26-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-29-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -19,7 +19,7 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
   - [In-Context Learning](#in-context-learning)
   - [Black-Box Optimization](#black-box-optimization)
   - [Feature-based Learning](#feature-based-learning)
-  - [Dataset-generation-based Learning](#dataset-generation-based-learning)
+  - [Data Generation](#data-generation)
   - [Others](#others)
 
 - [Contributing](#contributing)
@@ -40,6 +40,7 @@ In existing literature, there are several lines of research that fit into LMaaS:
 - **In-context learning**. Users can provide a few examples in the input at inference time to help LLMs to rapidly adapt to the target task.
 - **Black-box optimization**. By tuning a small portion of parameters (e.g., continuous prompt) with only the access of the LLM's output probability via black-box optimization, users can solve target tasks with a small training set.
 - **Feature-based learning**. LLMs can serve as a feature extractor, on which users can build some learnable task-specific modules to perform classification or generation.
+- **Data Generation**. Generative LLMs can be used to generate a dataset of labeled text pairs from scratch, which is then used to locally train a much smaller model.
 
 **Note:** A related (and partially overlapped) topic is *prompt-based learning*, which aims to solve downstream tasks using general purpose LLMs by converting input and output with some template and verbalizer, respectively. However, most works in prompt-based learning require the access to model parameters and gradients, and therefore do not fit into our scope. For prompt-based learning papers that are not suitable for LMaaS, we recommend contributing to another awesome paper list: [PromptPaper](https://github.com/thunlp/PromptPapers).
 
