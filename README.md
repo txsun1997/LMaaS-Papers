@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-26-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-29-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -19,6 +19,7 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
   - [In-Context Learning](#in-context-learning)
   - [Black-Box Optimization](#black-box-optimization)
   - [Feature-based Learning](#feature-based-learning)
+  - [Data Generation](#data-generation)
   - [Others](#others)
 
 - [Contributing](#contributing)
@@ -39,6 +40,7 @@ In existing literature, there are several lines of research that fit into LMaaS:
 - **In-context learning**. Users can provide a few examples in the input at inference time to help LLMs to rapidly adapt to the target task.
 - **Black-box optimization**. By tuning a small portion of parameters (e.g., continuous prompt) with only the access of the LLM's output probability via black-box optimization, users can solve target tasks with a small training set.
 - **Feature-based learning**. LLMs can serve as a feature extractor, on which users can build some learnable task-specific modules to perform classification or generation.
+- **Data Generation**. Generative LLMs can be used to generate a dataset of labeled text pairs from scratch, which is then used to locally train a much smaller model.
 
 **Note:** A related (and partially overlapped) topic is *prompt-based learning*, which aims to solve downstream tasks using general purpose LLMs by converting input and output with some template and verbalizer, respectively. However, most works in prompt-based learning require the access to model parameters and gradients, and therefore do not fit into our scope. For prompt-based learning papers that are not suitable for LMaaS, we recommend contributing to another awesome paper list: [PromptPaper](https://github.com/thunlp/PromptPapers).
 
@@ -176,15 +178,30 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Yitao Liu, Chenxin An, Xipeng Qiu*. [[pdf](https://arxiv.org/abs/2202.09817)]
 
+### Dataset-generation-based Learning
+1. **Generating Datasets with Pretrained Language Models**. EMNLP 2021 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+     *Timo Schick, Hinrich Schütze*. [[pdf](https://arxiv.org/abs/2104.07540)] [[code](https://github.com/timoschick/dino)]
+
+2. **ZeroGen: Efficient Zero-shot Learning via Dataset Generation**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+    *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
+
+3. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. Preprint 2022.2 ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+    *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
+
+4. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
+    
+
 ### Others
 
 1. **Co-training Improves Prompt-based Learning for Large Language Models**. ICML 2022 ![](https://img.shields.io/badge/Co--training-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Hunter Lang, Monica Agrawal, Yoon Kim, David Sontag*. [[pdf](https://arxiv.org/abs/2202.00828)] 
 
-2. **ZeroGen: Efficient Zero-shot Learning via Dataset Generation**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
-
-    *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
 
 ## Contributing
 
