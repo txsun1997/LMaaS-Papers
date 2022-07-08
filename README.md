@@ -5,6 +5,7 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
 
 ## Updates
 
+- 2022/7/7: Write a [blog](https://zhuanlan.zhihu.com/p/538857729) (in Chinese)
 - 2022/7/4: Create this paper list
 
 ## Contents
@@ -23,7 +24,7 @@ This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is
 
 ## Introduction
 
-Due to commercial reasons and expensive tuning cost, pre-trained large language models (LLMs) such as GPT-3 are usually released as a service instead of open sourcing model weights. We call this scenario "**Language-Model-as-a-Service (LMaaS)**". In such a scenario, users can access the powerful LLMs through their inference APIs. The service of LLMs has powered many use cases (See [GPT-3 Demo](https://gpt3demo.com/)). In contrast to fine-tuning, LMaaS allows a single general purpose LLM to serve many difference tasks and therefore is highly deployment-efficient. Nevertheless, how to adapt LLMs to target tasks without access to their parameters and gradients is a challenge. To make LLMs benefit a wider audience, we collect papers that fit into this scenario to facilitate future research. 
+Due to commercial reasons and expensive tuning cost, pre-trained large language models (LLMs) such as GPT-3 are usually released as a service instead of open sourcing model weights. We call this scenario "**Language-Model-as-a-Service (LMaaS)**" (the term is originally used in [our ICML'2022 paper](https://arxiv.org/abs/2201.03514)). In such a scenario, users can access the powerful LLMs through their inference APIs. The service of LLMs has powered many use cases (See [GPT-3 Demo](https://gpt3demo.com/)). In contrast to fine-tuning, LMaaS allows a single general purpose LLM to serve many difference tasks and therefore is highly deployment-efficient. Nevertheless, how to adapt LLMs to target tasks without access to their parameters and gradients is a challenge. To make LLMs benefit a wider audience, we collect papers that fit into this scenario to facilitate future research. 
 
 ![](https://github.com/txsun1997/LMaaS-Papers/blob/main/img/LMaaS.png)
 
@@ -250,8 +251,10 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 Steps to contribute:
 
 - Add a new paper or update an existing paper. Please check if your added paper fits into the [scope](#scope) of this repo.
-- Please use the same format as existing entries. When adding keywords tags, please follow the same [keywords convention](#keywords). When adding the pdf link of the paper, please use the abstract page if it is on arXiv.
+- Please use the same format as existing entries. When adding keywords tags, please follow the [keywords convention](#keywords). When adding the pdf link of the paper, please use the abstract page if it is on arXiv.
 - Modify the `PaperNumber` on the top of the page accordingly and submit your pull request. We recommend giving a very brief explanation why you think a paper should be added or changed.
+
+**Don't worry if you put something wrong, we will fix them for you.** Just contribute and promote your awesome work here!
 
 ### Contributors
 
