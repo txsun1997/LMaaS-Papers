@@ -226,9 +226,9 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Matthew E. Peters, Sebastian Ruder, Noah A. Smith*. [[pdf](https://arxiv.org/abs/1903.05987)]
 
-2. **Can Explanations Be Useful for Calibrating Black Box Models?**. ACL 2022 ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Few--shot-green)
+2. **Can Explanations Be Useful for Calibrating Black Box Models?** ACL 2022 ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Few--shot-green)
    
-    *Xi Ye Greg Durrett* [[pdf](https://arxiv.org/abs/2110.07586)] [[code](https://github.com/xiye17/InterpCalib)]
+    *Xi Ye, Greg Durrett*. [[pdf](https://arxiv.org/abs/2110.07586)] [[code](https://github.com/xiye17/InterpCalib)]
 
 3. **Co-training Improves Prompt-based Learning for Large Language Models**. ICML 2022 ![](https://img.shields.io/badge/Co--training-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
 
