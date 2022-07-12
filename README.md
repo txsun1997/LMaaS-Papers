@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-46-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-48-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -76,35 +76,39 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei*. [[pdf](https://arxiv.org/abs/2005.14165)]
 
-4. **Finetuned Language Models Are Zero-Shot Learners**. ICLR 2022 ![](https://img.shields.io/badge/FLAN-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+4. **Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collections**. Findings of EMNLP 2021 ![](https://img.shields.io/badge/Meta_Tuning-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+   *Ruiqi Zhong, Kristy Lee, Zheng Zhang, Dan Klein*. [[pdf](https://arxiv.org/abs/2104.04670)] [[code](https://github.com/ruiqi-zhong/Meta-tuning)]
+
+5. **Finetuned Language Models Are Zero-Shot Learners**. ICLR 2022 ![](https://img.shields.io/badge/FLAN-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le*. [[pdf](https://arxiv.org/abs/2109.01652)] [[code](https://github.com/google-research/flan)]
 
-5. **Multitask Prompted Training Enables Zero-Shot Task Generalization**. ICLR 2022 ![](https://img.shields.io/badge/T0-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+6. **Multitask Prompted Training Enables Zero-Shot Task Generalization**. ICLR 2022 ![](https://img.shields.io/badge/T0-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush*. [[pdf](https://arxiv.org/abs/2110.08207)] [[code](https://github.com/bigscience-workshop/t-zero)]
 
-6. **Training language models to follow instructions with human feedback**. Preprint 2022.3 ![](https://img.shields.io/badge/InstructGPT-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green) ![](https://img.shields.io/badge/Zero--shot-green)
+7. **Training language models to follow instructions with human feedback**. Preprint 2022.3 ![](https://img.shields.io/badge/InstructGPT-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe*. [[pdf](https://arxiv.org/abs/2203.02155)] [[code](https://github.com/openai/following-instructions-human-feedback)]
 
-7. **GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/GrIPS-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Natural_Instructions-green)
+8. **GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/GrIPS-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Natural_Instructions-green)
 
    *Archiki Prasad, Peter Hase, Xiang Zhou, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2203.07281)] [[code](https://github.com/archiki/GrIPS)]
 
-8. **RLPrompt: Optimizing Discrete Text Prompts With Reinforcement Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/RLPrompt-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
+9. **RLPrompt: Optimizing Discrete Text Prompts With Reinforcement Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/RLPrompt-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    *Mingkai Deng, Jianyu Wang, Cheng-Ping Hsieh, Yihan Wang, Han Guo, Tianmin Shu, Meng Song, Eric P. Xing, Zhiting Hu*. [[pdf](https://arxiv.org/abs/2205.12548)] [[code](https://github.com/mingkaid/rl-prompt)]
 
-9. **Large Language Models are Zero-Shot Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/Let's_think_step_by_step-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Zero--shot-green)
+10. **Large Language Models are Zero-Shot Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/Let's_think_step_by_step-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa*. [[pdf](https://arxiv.org/abs/2205.11916)] [[code](https://github.com/kojima-takeshi188/zero_shot_cot)]
 
-10. **Zero-Shot Video Question Answering via Frozen Bidirectional Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/FrozenBiLM-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
+11. **Zero-Shot Video Question Answering via Frozen Bidirectional Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/FrozenBiLM-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
-   *Antoine Yang, Antoine Miech, Josef Sivic, Ivan Laptev, Cordelia Schmid*. [[pdf](https://arxiv.org/abs/2206.08155)] [[code](https://antoyang.github.io/frozenbilm.html)]
+    *Antoine Yang, Antoine Miech, Josef Sivic, Ivan Laptev, Cordelia Schmid*. [[pdf](https://arxiv.org/abs/2206.08155)] [[code](https://antoyang.github.io/frozenbilm.html)]
 
-11. **Language Models are General-Purpose Interfaces**. Preprint 2022.6 ![](https://img.shields.io/badge/MetaLM-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
+12. **Language Models are General-Purpose Interfaces**. Preprint 2022.6 ![](https://img.shields.io/badge/MetaLM-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yaru Hao, Haoyu Song, Li Dong, Shaohan Huang, Zewen Chi, Wenhui Wang, Shuming Ma, Furu Wei*. [[pdf](https://arxiv.org/abs/2206.06336)] [[code](https://github.com/microsoft/unilm)]
 
@@ -138,67 +142,71 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer*. [[pdf](https://arxiv.org/abs/2108.04106)] [[code](https://github.com/shmsw25/Channel-LM-Prompting)]
 
-8. **What Makes Good In-Context Examples for GPT-3?** DeeLIO@ACL 2022 ![](https://img.shields.io/badge/In--context_Learning-red)
+8. **Meta-learning via Language Model In-context Tuning**. ACL 2022 ![](https://img.shields.io/badge/In--context_Tuning-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+   *Yanda Chen, Ruiqi Zhong, Sheng Zha, George Karypis, He He*. [[pdf](https://arxiv.org/abs/2110.07814)] [[code](https://github.com/yandachen/In-context-Tuning)]
+
+9. **What Makes Good In-Context Examples for GPT-3?** DeeLIO@ACL 2022 ![](https://img.shields.io/badge/In--context_Learning-red)
 
    Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen. [[pdf](https://arxiv.org/abs/2101.06804)] 
 
-9. **Learning To Retrieve Prompts for In-Context Learning**. NAACL 2022 ![](https://img.shields.io/badge/EPR-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
+10. **Learning To Retrieve Prompts for In-Context Learning**. NAACL 2022 ![](https://img.shields.io/badge/EPR-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
 
    *Ohad Rubin, Jonathan Herzig, Jonathan Berant*. [[pdf](https://arxiv.org/abs/2112.08633)] [[code](https://github.com/OhadRubin/EPR)]
 
-10. **MetaICL: Learning to Learn In Context**. NAACL 2022 ![](https://img.shields.io/badge/MetaICL-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green) 
+11. **MetaICL: Learning to Learn In Context**. NAACL 2022 ![](https://img.shields.io/badge/MetaICL-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green) 
 
     *Sewon Min, Mike Lewis, Luke Zettlemoyer, Hannaneh Hajishirzi*. [[pdf](https://arxiv.org/abs/2110.15943)] [[code](https://github.com/facebookresearch/metaicl)]
 
-11. **Improving In-Context Few-Shot Learning via Self-Supervised Training**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+12. **Improving In-Context Few-Shot Learning via Self-Supervised Training**. NAACL 2022 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Mingda Chen, Jingfei Du, Ramakanth Pasunuru, Todor Mihaylov, Srini Iyer, Veselin Stoyanov, Zornitsa Kozareva*. [[pdf](https://arxiv.org/abs/2205.01703)]
 
-12. **Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?** Preprint 2022.2 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+13. **Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?** Preprint 2022.2 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer*. [[pdf](https://arxiv.org/abs/2202.12837)] [[code](https://github.com/alrope123/rethinking-demonstrations)]
 
-13. **In-Context Learning for Few-Shot Dialogue State Tracking.** Preprint 2022.3 ![](https://img.shields.io/badge/Codex-blue) ![](https://img.shields.io/badge/In--context_Learning-red)  ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
+14. **In-Context Learning for Few-Shot Dialogue State Tracking.** Preprint 2022.3 ![](https://img.shields.io/badge/Codex-blue) ![](https://img.shields.io/badge/In--context_Learning-red)  ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yushi Hu, Chia-Hsuan Lee, Tianbao Xie, Tao Yu, Noah A. Smith, Mari Ostendorf*. [[pdf](https://arxiv.org/abs/2203.08568)] [[code](https://https//github.com/Yushi-Hu/IC-DST)]
 
-14. **Self-Consistency Improves Chain of Thought Reasoning in Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
+15. **Self-Consistency Improves Chain of Thought Reasoning in Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Denny Zhou*. [[pdf](https://arxiv.org/abs/2203.11171)]
 
-15. **STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning**. Preprint 2022.3 ![](https://img.shields.io/badge/STaR-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
+16. **STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning**. Preprint 2022.3 ![](https://img.shields.io/badge/STaR-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Eric Zelikman, Yuhuai Wu, Noah D. Goodman*. [[pdf](https://arxiv.org/abs/2203.14465)]
 
-16. **Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks**. Preprint 2022.4 ![](https://img.shields.io/badge/Natural_Instructions_v2-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+17. **Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks**. Preprint 2022.4 ![](https://img.shields.io/badge/Natural_Instructions_v2-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Anjana Arunkumar, Arjun Ashok, Arut Selvan Dhanasekaran, Atharva Naik, David Stap, Eshaan Pathak, Giannis Karamanolakis, Haizhi Gary Lai, Ishan Purohit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, Krima Doshi, Maitreya Patel, Kuntal Kumar Pal, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Shailaja Keyur Sampat, Savan Doshi, Siddhartha Mishra, Sujan Reddy, Sumanta Patro, Tanay Dixit, Xudong Shen, Chitta Baral, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi, Daniel Khashabi*. [[pdf](https://arxiv.org/abs/2204.07705)] [[code](https://github.com/allenai/natural-instructions)]
 
-17. **Can language models learn from explanations in context?**. Preprint 2022.4 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+18. **Can language models learn from explanations in context?**. Preprint 2022.4 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Andrew K. Lampinen, Ishita Dasgupta, Stephanie C. Y. Chan, Kory Matthewson, Michael Henry Tessler, Antonia Creswell, James L. McClelland, Jane X. Wang, Felix Hill*. [[pdf](https://arxiv.org/abs/2204.02329)]
 
-18. **Ground-Truth Labels Matter: A Deeper Look into Input-Label Demonstrations**. Preprint 2022.5 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+19. **Ground-Truth Labels Matter: A Deeper Look into Input-Label Demonstrations**. Preprint 2022.5 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Junyeob Kim, Hyuhng Joon Kim, Hyunsoo Cho, Hwiyeol Jo, Sang-Woo Lee, Sang-goo Lee, Kang Min Yoo, Taeuk Kim*. [[pdf](https://arxiv.org/abs/2205.12685)]
 
-19. **The Unreliability of Explanations in Few-Shot In-Context Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+20. **The Unreliability of Explanations in Few-Shot In-Context Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Xi Ye, Greg Durrett*. [[pdf](https://arxiv.org/abs/2205.03401)]
 
-20. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**. Preprint 2022.5 ![](https://img.shields.io/badge/Least--to--Most_Prompting-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
+21. **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models**. Preprint 2022.5 ![](https://img.shields.io/badge/Least--to--Most_Prompting-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Olivier Bousquet, Quoc Le, Ed Chi*. [[pdf](https://arxiv.org/abs/2205.10625)]
 
-21. **On the Advance of Making Language Models Better Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/DiVeRSe-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
+22. **On the Advance of Making Language Models Better Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/DiVeRSe-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen*. [[pdf](https://arxiv.org/abs/2206.02336)] [[code](https://github.com/microsoft/DiVeRSe)]
 
-22. **Emergent Abilities of Large Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
+23. **Emergent Abilities of Large Language Models**. Preprint 2022.6 ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus*. [[pdf](https://arxiv.org/abs/2206.07682)]
 
-23. **Language Models are General-Purpose Interfaces**. Preprint 2022.6 ![](https://img.shields.io/badge/MetaLM-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
+24. **Language Models are General-Purpose Interfaces**. Preprint 2022.6 ![](https://img.shields.io/badge/MetaLM-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Yaru Hao, Haoyu Song, Li Dong, Shaohan Huang, Zewen Chi, Wenhui Wang, Shuming Ma, Furu Wei*. [[pdf](https://arxiv.org/abs/2206.06336)] [[code](https://github.com/microsoft/unilm)]
 
