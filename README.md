@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-50-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-56-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -286,6 +286,10 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 6. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
+
+7. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+   *Chujie Zheng, Sahand Sabour, Jiaxin Wen, Minlie Huang*. [[pdf](https://arxiv.org/abs/2202.13047)]
 
 
 ## Contributing
