@@ -287,7 +287,7 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
 
-7. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
+7. **AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    *Chujie Zheng, Sahand Sabour, Jiaxin Wen, Minlie Huang*. [[pdf](https://arxiv.org/abs/2202.13047)]
 
