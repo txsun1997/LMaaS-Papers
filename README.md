@@ -266,7 +266,7 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Yitao Liu, Chenxin An, Xipeng Qiu*. [[pdf](https://arxiv.org/abs/2202.09817)]
 
-5. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. Preprint 2022.6 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
+5. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. NeurIPS 2022 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
 
    *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2206.06522)] [[code](https://github.com/ylsung/Ladder-Side-Tuning)]
 
@@ -287,17 +287,17 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2202.07922)] [[code](https://github.com/jiacheng-ye/ZeroGen)]
 
-5. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. Preprint 2022.2 ![](https://img.shields.io/badge/SuperGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
-
-   *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
-
-6. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+5. **ZeroGen+: Self-Guided High-Quality Data Generation in Efficient Zero-Shot Learning**. Preprint 2022.2 ![](https://img.shields.io/badge/ZeroGen+-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
 
-7. **AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
+6. **AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    *Chujie Zheng, Sahand Sabour, Jiaxin Wen, Minlie Huang*. [[pdf](https://arxiv.org/abs/2202.13047)]
+
+7. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. NeurIPS 2022 ![](https://img.shields.io/badge/SuperGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
+
+   *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han* [[pdf](http://arxiv.org/abs/2202.04538)] [[code](https://github.com/yumeng5/SuperGen)]
 
 
 ## Contributing
