@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-54-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-57-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -91,14 +91,6 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 7. **Training language models to follow instructions with human feedback**. Preprint 2022.3 ![](https://img.shields.io/badge/InstructGPT-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
    *Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe*. [[pdf](https://arxiv.org/abs/2203.02155)] [[code](https://github.com/openai/following-instructions-human-feedback)]
-
-8. **GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models**. Preprint 2022.3 ![](https://img.shields.io/badge/GrIPS-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Natural_Instructions-green)
-
-   *Archiki Prasad, Peter Hase, Xiang Zhou, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2203.07281)] [[code](https://github.com/archiki/GrIPS)]
-
-9. **RLPrompt: Optimizing Discrete Text Prompts With Reinforcement Learning**. Preprint 2022.5 ![](https://img.shields.io/badge/RLPrompt-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
-
-   *Mingkai Deng, Jianyu Wang, Cheng-Ping Hsieh, Yihan Wang, Han Guo, Tianmin Shu, Meng Song, Eric P. Xing, Zhiting Hu*. [[pdf](https://arxiv.org/abs/2205.12548)] [[code](https://github.com/mingkaid/rl-prompt)]
 
 10. **Large Language Models are Zero-Shot Reasoners**. Preprint 2022.6 ![](https://img.shields.io/badge/Let's_think_step_by_step-blue) ![](https://img.shields.io/badge/Chain_of_Thought-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
@@ -221,6 +213,18 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 27. **What Can Transformers Learn In-Context? A Case Study of Simple Function Classes**. Preprint 2022.8 ![](https://img.shields.io/badge/In--context_Learning-red)
 
     *Shivam Garg, Dimitris Tsipras, Percy Liang, Gregory Valiant*. [[pdf](https://export.arxiv.org/abs/2208.01066)] [[code](https://github.com/dtsip/in-context-learning)]
+
+28. **What learning algorithm is in-context learning? Investigations with linear models**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=0g0X4H8yN4I)]
+
+29. **Preserving In-Context Learning Ability in Large Language Model Fine-tuning**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=sVV0KK3COzD)]
+
+30. **Teaching Algorithmic Reasoning via In-context Learning**. Preprint 2022.9 ![](https://img.shields.io/badge/Algorithmic_Prompting-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=6dlC7E1H_9)]
 
 ### Black-Box Optimization
 
