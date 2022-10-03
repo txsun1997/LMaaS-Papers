@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-57-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-58-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -214,15 +214,19 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
     *Shivam Garg, Dimitris Tsipras, Percy Liang, Gregory Valiant*. [[pdf](https://export.arxiv.org/abs/2208.01066)] [[code](https://github.com/dtsip/in-context-learning)]
 
-28. **What learning algorithm is in-context learning? Investigations with linear models**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
+28. **Learning by Distilling Context**. Preprint 2022.9 ![](https://img.shields.io/badge/Context_Distillation-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+    *Charlie Snell, Dan Klein, Ruiqi Zhong*. [[pdf](https://arxiv.org/abs/2209.15189)]
+
+29. **What learning algorithm is in-context learning? Investigations with linear models**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
 
     *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=0g0X4H8yN4I)]
 
-29. **Preserving In-Context Learning Ability in Large Language Model Fine-tuning**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
+30. **Preserving In-Context Learning Ability in Large Language Model Fine-tuning**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
 
     *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=sVV0KK3COzD)]
 
-30. **Teaching Algorithmic Reasoning via In-context Learning**. Preprint 2022.9 ![](https://img.shields.io/badge/Algorithmic_Prompting-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
+31. **Teaching Algorithmic Reasoning via In-context Learning**. Preprint 2022.9 ![](https://img.shields.io/badge/Algorithmic_Prompting-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
 
     *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=6dlC7E1H_9)]
 
