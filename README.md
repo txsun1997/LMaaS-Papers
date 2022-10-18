@@ -232,7 +232,7 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
 32. **Binding Language Models in Symbolic Languages**. Preprint 2022.10 ![](https://img.shields.io/badge/binder-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
-    *Zhoujun Cheng\*, Tianbao Xie\*, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu*. [[pdf](https://arxiv.org/abs/2210.02875)] [[code](https://github.com/HKUNLP/Binder)] [[webiste](https://lm-code-binder.github.io/)]
+    *Zhoujun Cheng\*, Tianbao Xie\*, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu*. [[pdf](https://arxiv.org/abs/2210.02875)] [[code](https://github.com/HKUNLP/Binder)] [[website](https://lm-code-binder.github.io/)]
 
 ### Black-Box Optimization
 
