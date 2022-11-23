@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-60-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-61-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -267,6 +267,10 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 8. **PromptBoosting: Black-Box Text Classification with Ten Forward Passes**. Preprint 2022.9  ![](https://img.shields.io/badge/PromptBoosting-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=01LMSeReNvY)]
+
+9. **TEMPERA: Test-Time Prompt Editing via Reinforcement Learning**. Preprint 2022.11 ![](https://img.shields.io/badge/TEMPERA-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+   Tianjun Zhang, Xuezhi Wang, Denny Zhou, Dale Schuurmans, Joseph E. Gonzalez. [[pdf](https://arxiv.org/abs/2211.11890)] [[code](https://github.com/tianjunz/TEMPERA)]
 
 ### Feature-based Learning
 
