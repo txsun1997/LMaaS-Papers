@@ -264,13 +264,13 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Yekun Chai, Shuohuan Wang, Yu Sun, Hao Tian, Hua Wu, Haifeng Wang*. [[pdf](https://arxiv.org/abs/2210.12050)]
 
-8. **PromptBoosting: Black-Box Text Classification with Ten Forward Passes**. Preprint 2022.9  ![](https://img.shields.io/badge/PromptBoosting-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
-
-   *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=01LMSeReNvY)]
-
-9. **TEMPERA: Test-Time Prompt Editing via Reinforcement Learning**. Preprint 2022.11 ![](https://img.shields.io/badge/TEMPERA-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
+8. **TEMPERA: Test-Time Prompt Editing via Reinforcement Learning**. Preprint 2022.11 ![](https://img.shields.io/badge/TEMPERA-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    Tianjun Zhang, Xuezhi Wang, Denny Zhou, Dale Schuurmans, Joseph E. Gonzalez. [[pdf](https://arxiv.org/abs/2211.11890)] [[code](https://github.com/tianjunz/TEMPERA)]
+
+9. **PromptBoosting: Black-Box Text Classification with Ten Forward Passes**. Preprint 2022.12  ![](https://img.shields.io/badge/PromptBoosting-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+   *Bairu Hou, Joe O'Connor, Jacob Andreas, Shiyu Chang, Yang Zhang*. [[pdf](https://openreview.net/pdf?id=01LMSeReNvY)]
 
 ### Feature-based Learning
 
