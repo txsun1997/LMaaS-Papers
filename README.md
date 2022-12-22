@@ -218,21 +218,21 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
     *Charlie Snell, Dan Klein, Ruiqi Zhong*. [[pdf](https://arxiv.org/abs/2209.15189)]
 
-29. **What learning algorithm is in-context learning? Investigations with linear models**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
-
-    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=0g0X4H8yN4I)]
-
-30. **Preserving In-Context Learning Ability in Large Language Model Fine-tuning**. Preprint 2022.9 ![](https://img.shields.io/badge/In--context_Learning-red)
-
-    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=sVV0KK3COzD)]
-
-31. **Teaching Algorithmic Reasoning via In-context Learning**. Preprint 2022.9 ![](https://img.shields.io/badge/Algorithmic_Prompting-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
-
-    *Anonymous authors*. [[pdf](https://openreview.net/pdf?id=6dlC7E1H_9)]
-
-32. **Binding Language Models in Symbolic Languages**. Preprint 2022.10 ![](https://img.shields.io/badge/binder-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
+29. **Binding Language Models in Symbolic Languages**. Preprint 2022.10 ![](https://img.shields.io/badge/binder-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Few--shot-green)
 
     *Zhoujun Cheng\*, Tianbao Xie\*, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu*. [[pdf](https://arxiv.org/abs/2210.02875)] [[code](https://github.com/HKUNLP/Binder)] [[website](https://lm-code-binder.github.io/)]
+
+30. **Preserving In-Context Learning Ability in Large Language Model Fine-tuning**. Preprint 2022.11 ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Yihan Wang, Si Si, Daliang Li, Michal Lukasik, Felix Yu, Cho-Jui Hsieh, Inderjit S Dhillon, Sanjiv Kumar*. [[pdf](https://arxiv.org/abs/2211.00635)]
+
+31. **Teaching Algorithmic Reasoning via In-context Learning**. Preprint 2022.11 ![](https://img.shields.io/badge/Algorithmic_Prompting-blue) ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Hattie Zhou, Azade Nova, Hugo Larochelle, Aaron Courville, Behnam Neyshabur, Hanie Sedghi*. [[pdf](https://arxiv.org/abs/2211.09066)]
+
+32. **What learning algorithm is in-context learning? Investigations with linear models**. Preprint 2022.11 ![](https://img.shields.io/badge/In--context_Learning-red)
+
+    *Ekin Akyürek, Dale Schuurmans, Jacob Andreas, Tengyu Ma, Denny Zhou*. [[pdf](https://arxiv.org/abs/2211.15661)]
 
 ### Black-Box Optimization
 
