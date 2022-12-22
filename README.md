@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-61-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-62-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -279,7 +279,7 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
    *Matthew E. Peters, Sebastian Ruder, Noah A. Smith*. [[pdf](https://arxiv.org/abs/1903.05987)]
 
 2. **Can Explanations Be Useful for Calibrating Black Box Models?** ACL 2022 ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Few--shot-green)
-   
+
     *Xi Ye, Greg Durrett*. [[pdf](https://arxiv.org/abs/2110.07586)] [[code](https://github.com/xiye17/InterpCalib)]
 
 3. **Co-training Improves Prompt-based Learning for Large Language Models**. ICML 2022 ![](https://img.shields.io/badge/Co--training-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/Few--shot-green)
@@ -293,6 +293,10 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 5. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. NeurIPS 2022 ![](https://img.shields.io/badge/LST-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Full--data-green)
 
    *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. [[pdf](https://arxiv.org/abs/2206.06522)] [[code](https://github.com/ylsung/Ladder-Side-Tuning)]
+
+6. **Decoder Tuning: Efficient Language Understanding as Decoding**. Preprint 2022.12 ![](https://img.shields.io/badge/DecT-blue) ![](https://img.shields.io/badge/Feature--based-red) ![](https://img.shields.io/badge/Few--shot-green)
+
+    *Ganqu Cui, Wentao Li, Ning Ding, Longtao Huang, Zhiyuan Liu, Maosong Sun*. [[pdf](https://arxiv.org/abs/2212.08408)]
 
 ### Data Generation
 1. **Generating Datasets with Pretrained Language Models**. EMNLP 2021 ![](https://img.shields.io/badge/Dino-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
