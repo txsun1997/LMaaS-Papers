@@ -104,10 +104,14 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
     *Yaru Hao, Haoyu Song, Li Dong, Shaohan Huang, Zewen Chi, Wenhui Wang, Shuming Ma, Furu Wei*. [[pdf](https://arxiv.org/abs/2206.06336)] [[code](https://github.com/microsoft/unilm)]
 
-11. **Ignore Previous Prompt: Attack Techniques For Language Models.** Best Paper Award @ NeurIPS ML Safety Workshop 2022. ![](https://img.shields.io/badge/PromptInject-blue) ![](https://img.shields.io/badge/Safety-red)
+11. **Repository-Level Prompt Generation for Large Language Models of Code.** Preprint 2022.6 ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/FrozenLM-blue) ![](https://img.shields.io/badge/Codex-green)
+
+    *Disha Shrivastava, Hugo Larochelle, Daniel Tarlow* [[pdf](https://arxiv.org/abs/2206.12839)] [[code](https://github.com/shrivastavadisha/repo_level_prompt_generation)], 2022.6
+    
+12. **Ignore Previous Prompt: Attack Techniques For Language Models.** Best Paper Award @ NeurIPS ML Safety Workshop 2022. ![](https://img.shields.io/badge/PromptInject-blue) ![](https://img.shields.io/badge/Safety-red)
 
     *Fábio Perez, Ian Ribeiro* [[pdf](https://arxiv.org/abs/2211.09527)] [[project](https://github.com/agencyenterprise/PromptInject)], 2022.11
-
+    
 ### In-Context Learning
 
 1. **Language Models are Few-Shot Learners.** NeurIPS 2020 ![](https://img.shields.io/badge/GPT--3-blue) ![](https://img.shields.io/badge/In--context_Learning-red) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Zero--shot-green)![](https://img.shields.io/badge/Few--shot-green)
