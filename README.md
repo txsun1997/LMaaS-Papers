@@ -1,5 +1,5 @@
 # Language Model as a Service (LMaaS)
-![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-64-brightgreen)
+![](https://img.shields.io/github/last-commit/txsun1997/LMaaS-Papers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen)
 
 This is a curated list of "Language-Model-as-a-Service (LMaaS)" papers, which is mainly maintained by [Tianxiang Sun](https://txsun1997.github.io/). We strongly encourage the NLP researchers who are interested in this topic to make pull request to add or update the papers (See [Contributing](#contributing)). Watch this repository for the latest updates!
 
@@ -279,6 +279,10 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 9. **PromptBoosting: Black-Box Text Classification with Ten Forward Passes**. Preprint 2022.12  ![](https://img.shields.io/badge/PromptBoosting-blue) ![](https://img.shields.io/badge/Discrete_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green)
 
    *Bairu Hou, Joe O'Connor, Jacob Andreas, Shiyu Chang, Yang Zhang*. [[pdf](https://openreview.net/pdf?id=01LMSeReNvY)]
+
+10. **Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning**. ACL 2023 ![](https://img.shields.io/badge/MP2-blue) ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green) 
+
+    *Tianxiang Sun, Zhengfu He, Qin Zhu, Xipeng Qiu, Xuanjing Huang*. [[pdf](https://arxiv.org/abs/2210.07565)]
 
 ### Feature-based Learning
 
