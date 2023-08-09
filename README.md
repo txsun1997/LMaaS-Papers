@@ -323,9 +323,9 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Jiahui Gao, Renjie Pi, Yong Lin, Hang Xu, Jiacheng Ye, Zhiyong Wu, Xiaodan Liang, Zhenguo Li, Lingpeng Kong*. [[pdf](https://arxiv.org/abs/2205.12679)]
 
-6. **AugESC: Large-scale Data Augmentation for Emotional Support Conversation with Pre-trained Language Models**. Preprint 2022.2 ![](https://img.shields.io/badge/AugESC-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
+6. **AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation**. Findings of ACL 2023 ![](https://img.shields.io/badge/AugESC-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Few--shot-green)
 
-   *Chujie Zheng, Sahand Sabour, Jiaxin Wen, Minlie Huang*. [[pdf](https://arxiv.org/abs/2202.13047)]
+   *Chujie Zheng, Sahand Sabour, Jiaxin Wen, Zheng Zhang, Minlie Huang*. [[pdf](https://arxiv.org/abs/2202.13047)]
 
 7. **Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**. NeurIPS 2022 ![](https://img.shields.io/badge/SuperGen-blue) ![](https://img.shields.io/badge/Data_Generation-red) ![](https://img.shields.io/badge/Zero--shot-green)
 
