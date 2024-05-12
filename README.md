@@ -248,7 +248,7 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 
    *Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu.* [[pdf](https://arxiv.org/abs/2201.03514)] [[code](https://github.com/txsun1997/Black-Box-Tuning)]
 
-2. **Black-box Prompt Learning for Pre-trained Language Models**. Preprint 2022.1 ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Full--data-green)
+2. **Black-box Prompt Learning for Pre-trained Language Models**. TMLR 2023.2 ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Full--data-green)
 
    *Shizhe Diao, Xuechun Li, Yong Lin, Zhichao Huang, Tong Zhang*. [[pdf](https://arxiv.org/abs/2201.08531)]
 
@@ -283,6 +283,14 @@ Compared with fine-tuning task-specific LLMs, LMaaS has the following advantages
 10. **Multitask Pre-training of Modular Prompt for Chinese Few-Shot Learning**. ACL 2023 ![](https://img.shields.io/badge/MP2-blue) ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green) 
 
     *Tianxiang Sun, Zhengfu He, Qin Zhu, Xipeng Qiu, Xuanjing Huang*. [[pdf](https://arxiv.org/abs/2210.07565)]
+
+11. **When Gradient Descent Meets Derivative-Free Optimization: A Match Made in Black-Box Scenario**. ACL 2023 ![](https://img.shields.io/badge/GDFO-blue) ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green) 
+
+    *Chengcheng Han, Liqing Cui, Renyu Zhu, Jianing Wang, Nuo Chen, Qiushi Sun, Xiang Li, Ming Gao*. [[pdf](https://arxiv.org/abs/2305.10013)]
+
+12. **Make Prompt-based Black-Box Tuning Colorful: Boosting Model Generalization from Three Orthogonal Perspectives**. LREC-COLING 2024 ![](https://img.shields.io/badge/BBTRGB-blue) ![](https://img.shields.io/badge/Soft_Prompt-red) ![](https://img.shields.io/badge/Few--shot-green) 
+
+    *Qiushi Sun, Chengcheng Han, Nuo Chen, Renyu Zhu, Jingyang Gong, Xiang Li, Ming Gao*. [[pdf](https://arxiv.org/abs/2305.08088)]
 
 ### Feature-based Learning
 
